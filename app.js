@@ -1,3 +1,4 @@
+
 const tabs = M.Tabs.init(document.querySelector('.tabs'));
 
 //function must be declared async to support the await keyword

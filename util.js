@@ -1,5 +1,5 @@
 // replace with your fork of the completed lab 3 repl https://replit.com/@Snickdx/INFO-2602-Lab-3-Completed
-const server = "http://127.0.0.1:8000";
+const server = "http://localhost:8000";
 
 function toast(message){
   M.toast({html: message});
