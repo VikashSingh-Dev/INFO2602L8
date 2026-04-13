@@ -8,7 +8,7 @@ function toast(message){
 async function sendRequest(url, method, data){
   try{
     //retrieve token from localStorage
-    let token = window.localStorage.getItem('token');
+    let token = window.localStorage.getItem('access_token');
 
     let options = {//options passed to fetch function
         method: method,
